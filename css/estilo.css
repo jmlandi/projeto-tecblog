@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: montserrat, sans-serif;
+	background: #f4f4f4;
+}
+
+
+/*
+***********Layout menu***********
+*/
+
+#header-area{
+background-color: #F7b600;
+padding: 15px;
+text-align: center;
+}
+
+#logo-area{
+padding: 10px;
+}
+
+#menu-area{
+padding: 10px;
+}
+
+/*
+***********Formatações links***********
+*/
+
+#header-area a{
+	text-decoration: none;
+	font-size: 1.25em;
+	padding: 8px 12px;
+}	
+
+#header-area a:link,#header-area a:visited {
+	color: #F4F4F4;
+}
+
+#header-area a:hover,#header-area a:active {
+	color: #F7b600;
+	background-color: #f4f4f4;
+}
+
+#main-area a{
+	font-size: 1em;
+	padding: 2.5px;
+}	
+
+#main-area a:link,#main-area a:visited {
+	color: #F7b600;
+}
+
+#main-area a:hover,#main-area a:active {
+	color: #F4F4F4;
+	background-color: #F7b600;
+}
+
+#lateral-area a{
+	font-size: 0.8em;
+	padding: 2px;
+}	
+
+#lateral-area a:link,#lateral-area a:visited {
+	color: #F7b600;
+}
+
+#lateral-area a:hover,#lateral-area a:active {
+	color: #F4F4F4;
+	background-color: #F7b600;
+}
+
+/*
+***********Formatações de Conteúdo***********
+*/
+
+#main-area{
+	width: 920px;
+	margin: 10px auto;
+	padding: 10px;
+	/*border: 2px solid red;*/
+}
+
+#content-area{
+	width: 660px;
+	float: left;
+}
+
+.post{
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 8px double #CCC;
+	background-color: #fff;
+}
+
+.post-info{
+	display: block;
+	font-size: 0.8em;
+	font-style: italic;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+.post-content{
+	font-size: 1em;
+	padding: 5px 0px;
+	margin: 5px 0px;
+}
+
+#lateral-area{
+	width: 240px;
+	float: right;
+}
+
+.lateral{
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 8px double #CCC;
+	background-color: #fff;
+}
+
+.lateral-content{
+	font-size: 0.8em;
+	padding: 5px 0px;
+	margin: 5px 0px;
+}
+
+#footer{
+	clear: both;
+	text-align: center;
+	background-color: #ccc;
+	padding: 5px;
+}
+
+/*
+***********Formatações Gerais***********
+*/
+
+h1{
+	font-size: 2.5em;
+}
+
+h2{
+	color: #F7b600;
+}
+
+h3{
+	font-size: 1.5em;
+	color: #f4f4f4;
+	background-color: #696969;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.white{
+	color: #f4f4f4;
+}
